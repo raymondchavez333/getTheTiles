@@ -9,4 +9,8 @@ const books = [
   }
 ]
 
-getTheTitles(books)
+function getTheTitles(input){
+    return input.map(item => item.title);
+}
+
+console.log(getTheTitles(books))
